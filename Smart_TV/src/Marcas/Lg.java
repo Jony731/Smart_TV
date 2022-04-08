@@ -1,4 +1,6 @@
 package Marcas;
 
-public class Lg {
+import SO_TV.WebOs;
+
+public class Lg extends WebOs {
 }

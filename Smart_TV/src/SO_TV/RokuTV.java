@@ -1,6 +1,6 @@
 package SO_TV;
 
-public class RokuTV {
+public abstract class RokuTV {
     public static class AndoridTV {
     }
 }

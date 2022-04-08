@@ -1,4 +1,7 @@
 package Marcas;
 
-public class TCL {
+import SO_TV.RokuTV;
+
+public class TCL extends RokuTV {
+
 }

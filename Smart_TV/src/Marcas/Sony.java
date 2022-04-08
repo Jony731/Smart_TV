@@ -1,4 +1,6 @@
 package Marcas;
 
-public class Sony {
+import SO_TV.AndoirdTV;
+
+public class Sony extends AndoirdTV {
 }
