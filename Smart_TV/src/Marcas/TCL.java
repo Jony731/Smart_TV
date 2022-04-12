@@ -6,8 +6,8 @@ public class TCL extends RokuTV {
 
  String menu;
 
-    public Samsung(int pulgadas, String marca, String SO, Boleean HDMI, Boleean HDR, String definicion,   , String menu){
-        super(pulgadas, marca, SO, HDML, HDR, definicion, ); 
+    public Samsung(int pulgadas, String marca, String SO, Boleean HDMI, Boleean HDR, String definicion, Boleean Navegador, int memoriaint, String menu){
+        super(pulgadas, marca, SO, HDML, HDR, definicion, Navegador, memoriaint); 
         this.menu = menu;
     }   
 
@@ -27,6 +27,8 @@ public class TCL extends RokuTV {
                         " HDMI: "+ getHDMI()+
                         " HDR: " + getHDR()+
                         " Definición: " + getDefinicion()+
+                        " Navegador:" + getNavegador()+
+                        " Memoria int:" +getmemoriaint()+
                         " Menu WebOS: "+ getMenu());
 
     }
