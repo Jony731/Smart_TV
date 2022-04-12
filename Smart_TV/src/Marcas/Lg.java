@@ -10,8 +10,22 @@ public class Lg extends WebOs {
         this.menu = menu;
     }
 
+    public String getMenu() {
+        return menu;
+    }
+
+    public void setMenu(String menu) {
+        this.menu = menu;
+    }
+
     public void MostrarEspecificaciones(){
-        System.out.println("Marca: "+ getMarca() + "pualgadas: "+ 45 );
+        System.out.println("Marca: "+ getMarca() +
+                      " , pualgadas: "+ 45+
+                        " SO: "+ getSO()+
+                        " HDMI: "+ getHDMI()+
+                        " HDR: " + getHDR()+
+                        " Definición: " + getDefinicion()+
+                        " Menu WebOS: "+ getMenu());
 
     }
 }
